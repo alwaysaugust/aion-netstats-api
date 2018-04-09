@@ -1,0 +1,43 @@
+{
+  "name": "aion-netstats-api",
+  "description": "aion netstats api",
+  "version": "0.1.1",
+  "private": true,
+  "main": "./app.js",
+  "directories": {
+    "lib": "./lib"
+  },
+  "dependencies": {
+    "async": "^1.0.0",
+    "chalk": "^1.0.0",
+    "debounce": "1.0.0",
+    "debug": "2.2.0",
+    "lodash": "4.1.0",
+    "primus": "4.0.5",
+    "primus-emit": "1.0.0",
+    "primus-spark-latency": "0.1.1",
+    "aion-web3": "0.0.2",
+    "ws": "^1.0.1"
+  },
+  "scripts": {
+    "start": "node ./app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alwaysaugust/aion-netstats-api.git"
+  },
+  "keywords": [
+    "aion",
+    "network",
+    "API"
+  ],
+  "author": "ethdev.com",
+  "authors": [
+    {
+      "name": "Marian Oancea",
+      "email": "marian@ethdev.com",
+      "url": "https://github.com/cubedro"
+    }
+  ],
+  "license": "LGPL-3.0"
+}
