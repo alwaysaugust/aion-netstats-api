@@ -53,7 +53,7 @@ AION must be running.
 
 Enable the network apis by adding 'net' to the list of enabled apis in your cofing.xml file
 
-'<apis-enabled>web3,eth,personal,net</apis-enabled>'
+`<apis-enabled>web3,eth,personal,net</apis-enabled>`
 
 Run the process with:
 ```bash
