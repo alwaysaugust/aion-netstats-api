@@ -61,8 +61,8 @@ pm2 start app.json
 ```
 PM2 commands:
 
-'pm2 list' to display the process status;
-'pm2 logs' to display logs;
-'pm2 gracefulReload node-app' for a soft reload;
-'pm2 stop' node-app to stop the app;
-'pm2 kill' to kill the daemon.
+`pm2 list` to display the process status;
+`pm2 logs` to display logs;
+`pm2 gracefulReload node-app` for a soft reload;
+`pm2 stop` node-app to stop the app;
+`pm2 kill` to kill the daemon.
